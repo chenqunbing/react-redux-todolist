@@ -20,3 +20,4 @@ export const setFilter = filter => ({
         filter
     }
 })
+
