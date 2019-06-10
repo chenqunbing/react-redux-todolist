@@ -2,16 +2,6 @@ import React from 'react'
 import Todo from './Todo.js'
 import {connect} from 'react-redux'
 import {getTodosByVisibilityFilter} from '../redux/selector'
-// class TodoList extends React.Component{
-//     render () {
-//         return (
-//             <div>
-//                 <div>TodoList</div>
-//                 <Todo></Todo>
-//             </div>
-//         )
-//     }
-// }
 const TodoList = ({todos}) => (
     <ul>
         {

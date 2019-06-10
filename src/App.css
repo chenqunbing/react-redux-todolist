@@ -2,3 +2,12 @@
   margin: 100px 0;
   text-align: center;
 }
+.pd20{
+  padding: 20px;
+}
+.red{
+  color: red;
+}
+.compoleted {
+  text-decoration: line-through;
+}

@@ -1,17 +1,8 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {toggleTodo} from '../redux/actions'
-// class Todo extends React.Component {
-//     render () {
-//         return (
-//             <div>
-
-//             </div>
-//         )
-//     }
-// }
 const Todo = ({todo, toggleTodo}) => (
-    <li onClick={()=> toggleTodo(todo.id)}> 
+    <li onClick={()=> toggleTodo(todo.id)} className={todo.compoleted? 'compoleted': ''}> 
         <span>{todo.content}</span>
     </li>
 )
